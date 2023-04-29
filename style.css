@@ -54,8 +54,16 @@ body {
 }
 
 .cabecalho__menu__logo {
-    width: 78%;
-    margin-top: 10px;
+    width: 70%;
+    margin-top: 13px;
+}
+
+.nav_wrapper {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px
 }
 
 .cabecalho__links__options {
@@ -186,6 +194,10 @@ h3 span {
     align-items: center;
     justify-content: space-between;
     margin-right: 2%;
+}
+
+.nav_wrapper {
+    width: 40%;
 }
 
 #main {
