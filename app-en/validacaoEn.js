@@ -17,7 +17,7 @@ function verificaValidadeDoChute(chute) {
         main.innerHTML =`
         <h2>You found it! <br><br><span>Congratulations!! 🥇🎉🎉</span></h2>
         <h3>The secret number was <span>${numeroSecreto}</span></h3>
-        <a id="reload" href="index.html"><p>Jogar novamente?</p></a>
+        <a id="reload" href="index.html"><p>Play again?</p></a>
         `
     } else if(numero > numeroSecreto) {
         elementoChute.innerHTML += `
